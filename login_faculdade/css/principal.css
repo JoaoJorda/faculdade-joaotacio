@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(6, 2, 90) 0%, rgba(21,109,251,1) 35%, rgba(0,212,255,1));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.texto_principal{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.container_card {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.texto_card {
+    margin-top: 10px;
+    color: #fff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    /* background-color: dodgerblue; */
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    /* background-color: #0056b3; */
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+}
