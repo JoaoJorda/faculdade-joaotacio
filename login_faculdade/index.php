@@ -17,17 +17,17 @@
             <div class="card">
                 <img src="img/programacao.jpg.jpg" alt="imagem1">
                 <p class="texto_card">Estude Programação</p>
-                <button>Saiba Mais</button>
+                <a href="https://descomplica.com.br/faculdade/tecnologia/analise-e-desenvolvimento-de-sistemas/"><button>Saiba Mais</button></a>
             </div>
             <div class="card">
                 <img src="img/medicina.jpg.jpg" alt="imagem2">
                 <p class="texto_card">Estude Medicina</p>
-                <button>Saiba Mais</button>
+                <a href="https://cursos.universidadebrasil.edu.br/medicina?gad_source=1&gclid=CjwKCAjwrcKxBhBMEiwAIVF8rCBuVfrFUliUanl1xWvMjl-mlvP0W9kFz1bLB11LZMyiuQO6nm6m3hoCex4QAvD_BwE"><button>Saiba Mais</button></a>
             </div>
             <div class="card">
                 <img src="img/formacao.jpg.jpg" alt="imagem3">
                 <p class="texto_card">Formações</p>
-                <button>Saiba Mais</button>
+                <a href="https://online.pucrs.br/pos-graduacao?gad_source=1&gclid=CjwKCAjwrcKxBhBMEiwAIVF8rEsPhqep7rR74EmGWyrkKLv0Lkm3QUC4Ub_s2c4xJq3SjtVPKee9HBoCyPsQAvD_BwE"><button>Saiba Mais</button></a>
             </div>
         </div>
 

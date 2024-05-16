@@ -14,9 +14,10 @@
             <span>JoãoTácio</span>
         </div>
         <ul>
-            <li><a href="index.php">Alunos JoãoTácio</a></li>
+            <li><a href="index.php">Início</a></li>
             <li><a href="pagina_login.php">Entrar</a></li>
             <li><a href="pagina_cadastro.php">Cadastra-se</a></li>
+            <li><a href="aluno.php">Aréa do aluno</a></li>
         </ul>
     </nav>
 

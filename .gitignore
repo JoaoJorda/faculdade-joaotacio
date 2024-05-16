@@ -1,0 +1,49 @@
+# Ignore node_modules if you have frontend dependencies
+/node_modules/
+
+# Ignore build directories
+/build/
+/dist/
+
+# Ignore PHPUnit result files
+.phpunit.result.cache
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore custom user configuration
+/user-config.php
+
+# Ignore SASS artifacts
+.sass-cache/
+
+# Ignore compiled assets
+/public/css/
+/public/js/
+/public/images/
+
+# Ignore local database files (e.g., SQLite)
+*.sqlite
+*.sql
+
+# Ignore backup files
+*.bak
+*.old
+# Ignore other temporary files
+*.tmp
+*.temp
+
+# Ignore PHPStorm project files
+/.phpstorm.meta.php
+
+# Ignore Laravel specific files and directories (if applicable)
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/logs
+/telescope
+/horizon
+
+# Ignore build artifacts
+/build/
+/dist/

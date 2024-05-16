@@ -23,6 +23,16 @@
                 </div>
                 <br><br>
                 <div class="inputBox">
+                    <label for="curso" class="labelInput selectLabel"></label>
+                    <select name="curso" id="curso" class="inputUser" required>
+                        <option value="" disabled selected hidden>Escolha um curso:     
+                        </option>
+                        <option value="programacao">Programação</option>
+                        <option value="medicina">Medicina</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelInput">Email</label>
                 </div>
