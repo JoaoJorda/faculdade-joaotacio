@@ -7,7 +7,6 @@
 body{
     background: linear-gradient(90deg, rgb(6, 2, 90) 0%, rgba(21,109,251,1) 35%, rgba(0,212,255,1));
 }
-
 .container {
     display: flex;
     flex-direction: column;
@@ -18,11 +17,11 @@ body{
 
 .texto_principal{
     color: #fff;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     font-weight: bolder;
     font-size: 30px;
-    margin-top: 50px;
+
 }
 
 .container_card {
@@ -34,9 +33,9 @@ body{
 
 .card {
     width: 300px;
-    padding: 20px;
-    background-color: #ccc;
-    border: 3px solid rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid #fff;
     border-radius: 10px;
     text-align: center;
 }
@@ -50,21 +49,20 @@ body{
 
 .texto_card {
     margin-top: 10px;
-    color: rgba(0, 0, 0, 0.6);
+    color: #fff;
 }
 
 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: red; 
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    text-align: none;
 }
 
 button:hover {
-    background-color: darkred; 
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
 }
